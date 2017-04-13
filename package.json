@@ -1,0 +1,32 @@
+{
+  "name": "es6-kata-seed",
+  "version": "1.0.0",
+  "author": "Raúl Expósito",
+  "license": "WTFPL",
+  "scripts": {
+    "test": "standard && babel-tape-runner test/**/*.js | tap-notify | faucet",
+    "coverage": "nyc npm run test",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "test": {
+      "patterns": [
+        "src",
+        "test"
+      ],
+      "extensions": "js"
+    }
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-tape-runner": "^2.0.1",
+    "faucet": "0.0.1",
+    "nyc": "^10.2.0",
+    "standard": "^10.0.1",
+    "tap-notify": "^1.0.0",
+    "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "npm-watch": "^0.1.8"
+  }
+}
