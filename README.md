@@ -1,5 +1,15 @@
 # ES6 Kata Seed
 
+```
+> node --version
+v6.10.0
+```
+
+```
+> npm --version
+3.10.10
+```
+
 ## Installing the unmet dependencies
 
 ```
